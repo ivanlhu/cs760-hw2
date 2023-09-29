@@ -121,7 +121,7 @@ class DecisionTree:
 
     def show(self, level=0):
         '''
-        Prints out the decision tree in DFS order
+        TODO
         '''
         if self.split is None:
             print(('  |' * level) + ' y={0}'.format(self.majority))
@@ -327,6 +327,3 @@ def part3():
     plt.title("Scikit-learn Decision Tree Learning Curve")
     plt.savefig("SKLearnError.png")
     plt.show()
-
-def part4():
-    pass
